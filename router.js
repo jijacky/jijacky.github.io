@@ -92,31 +92,27 @@
 		}
 		, {
 			title: '项目集合',
-			childList: [{
-				title: '大家网',
-				href: '/md/项目集合/大家网',
-			}, {
-				title: '学习APP',
-				href: '/md/项目集合/学习APP',
-			}, {
-				title: '设备巡检管理',
-				href: '/md/项目集合/设备巡检管理',
-			}, {
-				title: '醒目一百',
-				href: '/md/项目集合/醒目一百',
-			}, {
-				title: '学派网',
-				href: '/md/项目集合/学派网',
-			}, {
-				title: '直播系统',
-				href: '/md/项目集合/直播系统',
-			}
-			// , {
-			// 	title: '学习APP',
-			// 	href: '/md/项目集合/学习APP',
-			// }
+			childList: [
+                {
+                    title: '项目集合Topagse',
+                    href: '/md/项目集合/项目集合Topagse',
+                }, {
+                //     title: '学派网',
+                //     href: '/md/项目集合/学派网',
+                // }, {
+                    title: '设备巡检管理',
+                    href: '/md/项目集合/设备巡检管理',
+                }, {
+                    title: '醒目一百',
+                    href: '/md/项目集合/醒目一百',
+                }, {
+                    title: '项目集合TMJ',
+                    href: '/md/项目集合/项目集合TMJ',
+                }, {
+                    title: '直播系统',
+                    href: '/md/项目集合/直播系统',
+                }
 			]
-			
 		}]
 	};
 })()
