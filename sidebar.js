@@ -38,7 +38,8 @@
                 var http = new XMLHttpRequest();
                 console.log()
                 var rand = Math.random()
-                http.open("GET", window.location.origin + window.location.pathname + template.target + '.md?t=' + rand, true);
+                // http.open("GET", window.location.origin + window.location.pathname + template.target + '.md?t=' + rand, true);
+                http.open("GET", window.location.origin + "/" + template.target + '.md?t=' + rand, true);
                 http.send(null);
                 http.onload = function() {
                     switch (http.status) {
